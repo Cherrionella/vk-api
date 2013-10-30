@@ -1,4 +1,4 @@
-# vk-api [![Build Status](https://secure.travis-ci.org/Andromant/node-vk.png?branch=master)](http://travis-ci.org/Andromant/node-vk)
+# vk-api [![Build Status](https://secure.travis-ci.org/Andromant/vk-api.png?branch=master)](http://travis-ci.org/Andromant/vk-api)
 
 VK API wrapper for NodeJS
 
