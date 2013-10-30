@@ -1,0 +1,43 @@
+{
+    "name": "vk-api",
+    "description": "VK API wrapper for NodeJS",
+    "version": "0.1.0",
+    "homepage": "https://github.com/Andromant/node-vk",
+    "author": {
+        "name": "Andromant",
+        "email": "gorokhov-dev@yandex.ru"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Andromant/vk-api.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Andromant/vk-api/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/Andromant/vk-api/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "lib/vk-api",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt nodeunit"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.6.4",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt": "~0.4.1",
+        "nodeunit": "*"
+    },
+    "keywords": [
+        "vk",
+        "vkontakte",
+        "Вконтакте"
+    ],
+    "readmeFilename": "README.md"
+}
