@@ -16,7 +16,7 @@ VK.api('users.get', {id: 1234, lang: 'en'}, function(err,result) {
 });
 ```
 
--------
+=======
 
 Or if you want to take User id
 
