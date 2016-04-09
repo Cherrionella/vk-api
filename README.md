@@ -30,6 +30,20 @@ VK.init(function(err) {
 });
 ```
 
+=======
+
+Authorization with access token
+
+```javascript
+var vk_api = require('vk-api');
+var VK = new vk_api({appID: APPID, appSecret: APPSECRET}, null, null, ACCESS_TOKEN);
+VK.init(function(err) {
+    VK.api('users.get', {id: VK.userId, lang: 'en'}, function(err,result) {
+        //Some processing
+    });
+});
+```
+
 ## Documentation
 _(Coming soon)_
 
